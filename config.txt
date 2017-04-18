@@ -1,0 +1,15 @@
+role = master
+port = 8100
+
+#Policies
+#Inbound
+#keyword = check
+
+#Outbound
+#ip_mask = 52.53.248.35,255.255.255.0
+#port = 8123
+#host = sjsu.edu
+
+#Slaves
+ip_port = 127.0.0.1:8101
+ip_port = 127.0.0.1:8102
